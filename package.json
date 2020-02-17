@@ -1,0 +1,31 @@
+{
+  "name": "synchronous-channel",
+  "version": "0.0.1-alpha",
+  "description": "Synchronous message channel for inter-thread communication",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tniessen/node-synchronous-channel.git"
+  },
+  "keywords": [
+    "sync",
+    "synchronous",
+    "channel",
+    "queue",
+    "thread",
+    "webworker",
+    "worker",
+    "worker_threads",
+    "message",
+    "ipc"
+  ],
+  "author": "Tobias Nießen <tniessen@tnie.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tniessen/node-synchronous-channel/issues"
+  },
+  "homepage": "https://github.com/tniessen/node-synchronous-channel#readme"
+}
