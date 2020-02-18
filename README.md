@@ -82,6 +82,10 @@ Options:
 Each channel uses approximately `queueLength * maxMessageSize` bytes of memory.
 It is currently not possible to resize shared memory.
 
+It is not possible to create more than one `Writer` or more than one `Reader`
+for a single `SynchronousChannel`. Attempting to create additional `Writer` or
+`Reader` instances will throw.
+
 Example:
 
 ```js
