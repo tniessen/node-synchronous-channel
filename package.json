@@ -20,7 +20,8 @@
     "worker",
     "worker_threads",
     "message",
-    "ipc"
+    "ipc",
+    "webassembly"
   ],
   "author": "Tobias Nießen <tniessen@tnie.de>",
   "license": "ISC",
